@@ -59,3 +59,33 @@
 - Run The Configuration.
 
 ![craete bar graph](/src/assets/bar-graph.png)
+
+
+#### 4. Create Line Chart
+
+- We need to follow the same steps as we have followed in a bar graph.
+- There are only a few changes like select line-chart visualization instead of bar-graph visualization.
+- Select the line chart from the visualization pop-up.
+
+![create line chart](/src/assets/select-line-chart-graph.png)
+
+- By default Y-axis will show the count of doc that hits the criteria we have set on the X-axis.
+- To set criteria for separation of docs select X-axis from Buckets.
+
+![create line chart](/src/assets/add-x-axis.png)
+
+- Now we want separation of docs on the basis of Post date of the job, so we will use a date histogram for that.
+
+![create line chart](/src/assets/select-histogram.png)
+
+- Select the field using you want to separate docs, In our case, we are using the **job post date** field.
+
+![create line chart](/src/assets/select-field.png)
+
+- Select the interval for separation.
+
+![create line chart](/src/assets/interval.png)
+
+- Run The Configuration.
+
+![craete line chart](/src/assets/line-chart.png)
